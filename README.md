@@ -1,19 +1,18 @@
-
 # ✈️ Airline Reservation System
 
-A desktop-based Airline Reservation System developed using **Java Swing**, **JDBC**, and **MySQL**. The application provides user registration, login, flight search, ticket booking, PDF ticket generation, and email confirmation.
+A desktop-based Airline Reservation System developed using **Java Swing**, **JDBC**, and **MySQL**. It supports user registration, login, flight search, ticket booking, PDF ticket generation, and email confirmation.
 
 ## 🚀 Features
 
-- 👤 User Registration & Login
-- ✈️ Search Available Flights
-- 🎫 Book Flight Tickets
-- 📄 Generate PDF Tickets using iText
-- 📧 Send Email Confirmation using JavaMail API
-- 🗄️ MySQL Database Integration with JDBC
-- 🏗️ DAO Design Pattern for Database Operations
+- User registration and login
+- Flight search
+- Ticket booking
+- MySQL database connectivity
+- PDF ticket generation using iText
+- Email confirmation using JavaMail API
+- DAO design pattern
 
-## 🛠️ Tech Stack
+## 🛠️ Technologies Used
 
 - Java
 - Java Swing
@@ -24,7 +23,7 @@ A desktop-based Airline Reservation System developed using **Java Swing**, **JDB
 
 ## 📂 Project Structure
 
-```
+```text
 AirLineReservation/
 ├── src/
 │   └── com/
@@ -40,37 +39,60 @@ AirLineReservation/
 └── README.md
 ```
 
-## 📸 Project Modules
+## ⚙️ How to Run
 
-- User Registration
-- User Login
-- Flight Search
-- Ticket Booking
-- PDF Ticket Generation
-- Email Confirmation
+1. Clone the repository:
 
-## ⚙️ Setup
+```bash
+git clone https://github.com/Guna-sekhar7/Airline-Reservation-System.git
+```
 
-1. Clone the repository.
-2. Import the project into Eclipse or VS Code.
-3. Create the MySQL database.
-4. Update the database URL, username, and password in `DBConnection.java`.
-5. Add the required JAR files:
-   - MySQL Connector
-   - iText PDF
-   - JavaMail API
-6. Run `Main.java`.
+2. Open the project in VS Code or Eclipse.
 
-## 📈 Future Enhancements
+3. Create the required MySQL database and tables.
 
-- Online Payment Gateway
-- Seat Selection
-- Admin Dashboard
-- Flight Cancellation & Refund
-- Real-time Flight Updates
+4. Update the database details in:
+
+```text
+src/com/airline/connection/DBConnection.java
+```
+
+5. Add the required libraries:
+
+- MySQL Connector/J
+- iText PDF
+- JavaMail API
+
+6. Run:
+
+```text
+src/com/airline/Main/Main.java
+```
+
+## 📸 Project Preview
+
+Add your application screenshots inside a folder named `screenshots`.
+
+```markdown
+![Login Page](screenshots/login.png)
+
+![Registration Page](screenshots/register.png)
+
+![Booking Page](screenshots/booking.png)
+
+![Generated Ticket](screenshots/ticket.png)
+```
+
+## 🔮 Future Enhancements
+
+- Seat selection
+- Admin dashboard
+- Ticket cancellation
+- Online payment integration
+- Real-time flight status
 
 ## 👨‍💻 Author
 
 **Guna Sekhar**
 
-⭐ If you like this project, don't forget to star the repository!
+⭐ Star the repository if you found this project useful.
