@@ -1,5 +1,4 @@
-# Airline-Reservation-System
-**Airline Reservation System** is a Java Swing desktop application developed using **JDBC** and **MySQL**. It supports user registration, login, flight search, ticket booking, PDF ticket generation using **iText**, email confirmations via **JavaMail API**, and follows the **DAO** design pattern for efficient database management.
+
 # ✈️ Airline Reservation System
 
 A desktop-based Airline Reservation System developed using **Java Swing**, **JDBC**, and **MySQL**. The application provides user registration, login, flight search, ticket booking, PDF ticket generation, and email confirmation.
